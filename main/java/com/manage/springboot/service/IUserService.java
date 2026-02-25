@@ -6,14 +6,7 @@ import com.manage.springboot.controller.dto.UserPasswordDTO;
 import com.manage.springboot.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
-/**
- * <p>
- *  服务类
- * </p>
- *
- * @author zsc
- * @since 2022-01-26
- */
+
 public interface IUserService extends IService<User> {
 
     UserDTO login(UserDTO userDTO);
